@@ -374,7 +374,22 @@
   color: var(--dark-brown);
 }
 
-.image-12, .image-13, .image-14, .image-15, .image-16 {
+.image-12, .image-13, .image-14 {
+  object-fit: cover;
+  height: 300px;
+  padding-bottom: 10px;
+}
+
+.image-15 {
+  object-fit: cover;
+  flex: 0 auto;
+  height: 300px;
+  padding-bottom: 10px;
+}
+
+.image-16 {
+  object-fit: cover;
+  height: 300px;
   padding-bottom: 10px;
 }
 
@@ -587,6 +602,10 @@
     max-width: 95vw;
   }
 
+  .image-12, .image-13, .image-14, .image-15, .image-16 {
+    height: 200px;
+  }
+
   .image-21 {
     margin-bottom: 40px;
   }
@@ -699,6 +718,10 @@
   .image-11 {
     width: 95vw;
     max-width: none;
+  }
+
+  .image-12, .image-13, .image-14, .image-15, .image-16 {
+    height: 250px;
   }
 
   .footer-container {
